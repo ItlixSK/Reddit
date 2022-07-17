@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.reddit.databinding.ActivityMainBinding
+import com.example.reddit.utils.MAIN
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

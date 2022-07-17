@@ -1,6 +1,6 @@
 package com.example.reddit.data.retrofit
 
-import com.example.reddit.BASE_URL
+import com.example.reddit.utils.BASE_URL
 import com.example.reddit.data.api.ApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
