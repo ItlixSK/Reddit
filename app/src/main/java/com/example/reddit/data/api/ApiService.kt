@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface ApiService {
     @GET("top.json")
-    suspend fun getTot(
+    suspend fun getTop(
         @Query
         ("limit") loadSize: Int = 0,
         @Query
