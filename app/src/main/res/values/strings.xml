@@ -2,4 +2,8 @@
     <string name="app_name">Reddit</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="author_publication">Author publication</string>
+    <string name="_7_hours_ago">7 hours ago</string>
+    <string name="_777_comments">777 Comments</string>
+    <string name="todo">TODO</string>
 </resources>
