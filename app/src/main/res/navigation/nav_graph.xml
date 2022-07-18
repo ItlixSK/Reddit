@@ -12,15 +12,13 @@
         tools:layout="@layout/fragment_publication" >
         <action
             android:id="@+id/action_publicationFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.reddit.ui.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" >
-        <action
-            android:id="@+id/action_detailFragment_to_publicationFragment"
-            app:destination="@id/publicationFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_detail" />
 </navigation>
