@@ -19,6 +19,10 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.reddit.ui.detail.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        android:label="Image"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+    </fragment>
 </navigation>

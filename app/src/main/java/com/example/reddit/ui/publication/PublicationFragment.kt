@@ -37,7 +37,7 @@ class PublicationFragment : Fragment() {
             OnPostClickListener {
                 if (it != null)
                     findNavController().navigate(
-                        PublicationFragmentDirections.actionPublicationFragmentToDetailFragment()
+                        PublicationFragmentDirections.actionPublicationFragmentToDetailFragment(it)
                     )
             })
 

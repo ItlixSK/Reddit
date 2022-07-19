@@ -7,4 +7,13 @@
     <string name="_777_comments">777 Comments</string>
     <string name="todo">TODO</string>
     <string name="retry">Retry</string>
+
+    <string name="permission_required">Permission required</string>
+    <string name="permission_explaining">Permission required to save photo into storage on your phone</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="failed_download">Download has been failed, please try again</string>
+    <string name="downloading">Downloading…</string>
+    <string name="image_downloaded">Image downloaded successfully in </string>
+    <string name="nothing_to_download">There\'s nothing to download </string>
 </resources>
